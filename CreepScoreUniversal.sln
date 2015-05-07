@@ -5,16 +5,21 @@ VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreepScoreUniversal", "CreepScoreUniversal\CreepScoreUniversal.csproj", "{BC71D86E-CC8C-4E59-A7E9-BF28D501D854}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreepScore", "..\League Of Legends API\CreepScore\CreepScore\CreepScore.csproj", "{B02CB657-7306-4252-80CF-3DC97D91FC1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|ARM = Release|ARM
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC71D86E-CC8C-4E59-A7E9-BF28D501D854}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{BC71D86E-CC8C-4E59-A7E9-BF28D501D854}.Debug|ARM.ActiveCfg = Debug|ARM
 		{BC71D86E-CC8C-4E59-A7E9-BF28D501D854}.Debug|ARM.Build.0 = Debug|ARM
 		{BC71D86E-CC8C-4E59-A7E9-BF28D501D854}.Debug|ARM.Deploy.0 = Debug|ARM
@@ -24,6 +29,7 @@ Global
 		{BC71D86E-CC8C-4E59-A7E9-BF28D501D854}.Debug|x86.ActiveCfg = Debug|x86
 		{BC71D86E-CC8C-4E59-A7E9-BF28D501D854}.Debug|x86.Build.0 = Debug|x86
 		{BC71D86E-CC8C-4E59-A7E9-BF28D501D854}.Debug|x86.Deploy.0 = Debug|x86
+		{BC71D86E-CC8C-4E59-A7E9-BF28D501D854}.Release|Any CPU.ActiveCfg = Release|x86
 		{BC71D86E-CC8C-4E59-A7E9-BF28D501D854}.Release|ARM.ActiveCfg = Release|ARM
 		{BC71D86E-CC8C-4E59-A7E9-BF28D501D854}.Release|ARM.Build.0 = Release|ARM
 		{BC71D86E-CC8C-4E59-A7E9-BF28D501D854}.Release|ARM.Deploy.0 = Release|ARM
@@ -33,6 +39,22 @@ Global
 		{BC71D86E-CC8C-4E59-A7E9-BF28D501D854}.Release|x86.ActiveCfg = Release|x86
 		{BC71D86E-CC8C-4E59-A7E9-BF28D501D854}.Release|x86.Build.0 = Release|x86
 		{BC71D86E-CC8C-4E59-A7E9-BF28D501D854}.Release|x86.Deploy.0 = Release|x86
+		{B02CB657-7306-4252-80CF-3DC97D91FC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02CB657-7306-4252-80CF-3DC97D91FC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02CB657-7306-4252-80CF-3DC97D91FC1B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{B02CB657-7306-4252-80CF-3DC97D91FC1B}.Debug|ARM.Build.0 = Debug|Any CPU
+		{B02CB657-7306-4252-80CF-3DC97D91FC1B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B02CB657-7306-4252-80CF-3DC97D91FC1B}.Debug|x64.Build.0 = Debug|Any CPU
+		{B02CB657-7306-4252-80CF-3DC97D91FC1B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B02CB657-7306-4252-80CF-3DC97D91FC1B}.Debug|x86.Build.0 = Debug|Any CPU
+		{B02CB657-7306-4252-80CF-3DC97D91FC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02CB657-7306-4252-80CF-3DC97D91FC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02CB657-7306-4252-80CF-3DC97D91FC1B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{B02CB657-7306-4252-80CF-3DC97D91FC1B}.Release|ARM.Build.0 = Release|Any CPU
+		{B02CB657-7306-4252-80CF-3DC97D91FC1B}.Release|x64.ActiveCfg = Release|Any CPU
+		{B02CB657-7306-4252-80CF-3DC97D91FC1B}.Release|x64.Build.0 = Release|Any CPU
+		{B02CB657-7306-4252-80CF-3DC97D91FC1B}.Release|x86.ActiveCfg = Release|Any CPU
+		{B02CB657-7306-4252-80CF-3DC97D91FC1B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
